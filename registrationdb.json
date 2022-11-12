@@ -1,0 +1,32 @@
+{
+  "registrationUsers": [
+    {
+      "id": 1668253070902,
+      "firstname": "sweety",
+      "lastname": "biswas",
+      "email": "alija@gmail.com",
+      "dob": "2022-11-15T11:37:49.239Z"
+    },
+    {
+      "id": 1668281402726,
+      "firstname": "alija",
+      "lastname": "biswas",
+      "email": "aaa@gmail.com",
+      "dob": "2022-10-31T19:30:00.839Z"
+    },
+    {
+      "id": 1668291260037,
+      "firstname": "test",
+      "lastname": "test",
+      "email": "test@gmail.com",
+      "dob": "2022-11-07T22:14:17.993Z"
+    },
+    {
+      "id": 1668291348721,
+      "firstname": "www",
+      "lastname": "www",
+      "email": "www@gmail.in",
+      "dob": "2022-11-21T22:15:47.047Z"
+    }
+  ]
+}

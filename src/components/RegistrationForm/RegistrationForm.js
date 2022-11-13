@@ -3,7 +3,7 @@ import { Form, Input, DatePicker, Button } from "antd";
 import "../RegistrationForm/RegistrationForm.css";
 
 const RegistrationForm = ({form, onFormValueSubmit, onFormSwitch, onFormChange}) => {
-
+    
     const onFinish = (data) => {
         onFormValueSubmit(data);
         onFormChange("login")

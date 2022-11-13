@@ -14,6 +14,8 @@ const DetailsPage = () => {
   const [editValue, setEditValue] = useState(false);
   const [onDataEdit, setOnDataEdit] = useState(null);
   const [form] = Form.useForm();
+
+  // add form
   const onFormSubmit = (formDetails) => {
     const newValue = {
       id: Date.now(),
@@ -53,6 +55,7 @@ const DetailsPage = () => {
     setDrawerOpen(!drawerOpen);
   };
 
+  //logout button
   const onHandleClick = () => {
     navigate("/");
     notification.open({
@@ -63,6 +66,8 @@ const DetailsPage = () => {
       })
   };
 
+
+  //delete from table
   const onTableDelete = (id) => {
     Modal.confirm({
         title: 'Confirm',
@@ -93,6 +98,8 @@ const DetailsPage = () => {
     
   };
 
+
+  //edit table
   const onTableEdit = (id) => {
     console.log("editUser id", id)
 
@@ -128,6 +135,7 @@ const DetailsPage = () => {
 
   }
 
+  //cancel
   const onDataCancel = () => {
     form.resetFields();
     setDrawerOpen(!drawerOpen);

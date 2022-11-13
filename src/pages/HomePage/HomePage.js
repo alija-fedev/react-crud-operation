@@ -15,6 +15,7 @@ const HomePage = () => {
         setCurrentForm(formName)
     }
 
+    //registration form
     const onFormSubmit = (formDatas) => {
         console.log(formDatas);
 
@@ -44,7 +45,7 @@ const HomePage = () => {
           .then((res) => setRegData(res.data));
       };
 
-      
+    //login form
     const onButtonClick = (datas) => {
             const user = regdata.find((a) => {
                 return a.firstname === datas.username && a.lastname === datas.password

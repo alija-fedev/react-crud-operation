@@ -1,13 +1,6 @@
 {
   "addUsersData": [
     {
-      "createdAt": "November 13th 2022, 2:56:29 am",
-      "first_name": "sweety",
-      "last_name": "biswas",
-      "email": "sweety@gmail.com",
-      "id": 1668286189310
-    },
-    {
       "createdAt": "November 13th 2022, 2:55:30 am",
       "first_name": "alija",
       "last_name": "biswas",
@@ -20,6 +13,13 @@
       "last_name": "sdddd",
       "email": "aaa@gmail.com",
       "id": 1668288678609
+    },
+    {
+      "id": 1668338530441,
+      "createdAt": "November 13th 2022, 4:52:10 pm",
+      "first_name": "sweety",
+      "last_name": "biswas",
+      "email": "aaa@gmail.com"
     }
   ]
 }
